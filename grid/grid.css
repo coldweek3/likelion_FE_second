@@ -314,7 +314,7 @@ table{
   color:white
   border: 1px solid black;
   background-color: white;
-  border-collapse: collapse;
+  border-collapse:collapse;
   width: 30vw;
   height: 45vh;
   margin-left:45px;
@@ -343,4 +343,22 @@ td, th{
 .difficult li{
   font-size: medium;
   line-height: 30px;
+}
+
+.area4 p{
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  animation-name: animation;
+  /* width: 50px;
+  height: 50px; */
+}
+@keyframes animation{
+  from{
+    margin-left:100%;
+    width:300%;
+  }
+  to{
+    margin-left 0%;
+    width:100%;
+  }
 }

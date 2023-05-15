@@ -319,7 +319,6 @@ table{
   height: 45vh;
   margin-left:45px;
   border-radius: 20px;
-  
 }
 
 td, th{
@@ -328,4 +327,20 @@ td, th{
   border: 1px solid black;
   text-align: center;
   color:black;
+  font-size: small;
+}
+
+.difficult{
+  color:white;
+  margin-left:20px
+}
+
+.difficult p{
+  font-size: x-large;
+  margin-left: 20px;
+}
+
+.difficult li{
+  font-size: medium;
+  line-height: 30px;
 }
